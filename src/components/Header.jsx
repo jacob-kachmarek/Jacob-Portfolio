@@ -13,7 +13,7 @@ export default function Header(){
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to='/Portfolio' className='nav-link active custom-link'>
+                    <Link to='/Portfolio' className='nav-link active'>
                         Portfolio
                     </Link>
                 </li>

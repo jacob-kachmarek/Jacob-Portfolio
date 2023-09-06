@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 // import in components
 import About from './pages/About.jsx';
 // import Contact from './pages/Contact.jsx';
-// import Portfolio from './pages/Portfolio.jsx';
+import Portfolio from './pages/Portfolio.jsx';
 import Resume from './pages/Resume.jsx';
 
 // set up client route
@@ -20,10 +20,10 @@ const router = createBrowserRouter([
                 index: true,
                 element: <About/>
             },
-            // {
-            //     path: '/Portfolio',
-            //     element: <Portfolio/>
-            // },
+            {
+                path: '/Portfolio',
+                element: <Portfolio/>
+            },
             // {
             //     path: '/Contact',
             //     element: <Contact/>
