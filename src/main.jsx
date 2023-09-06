@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import About from './pages/About.jsx';
 // import Contact from './pages/Contact.jsx';
 // import Portfolio from './pages/Portfolio.jsx';
-// import Resume from './pages/Resume.jsx';
+import Resume from './pages/Resume.jsx';
 
 // set up client route
 const router = createBrowserRouter([
@@ -28,10 +28,10 @@ const router = createBrowserRouter([
             //     path: '/Contact',
             //     element: <Contact/>
             // },
-            // {
-            //     path: '/Resume',
-            //     element: <Resume/>
-            // },
+            {
+                path: '/Resume',
+                element: <Resume/>
+            },
         ]
     }
 ])

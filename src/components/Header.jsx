@@ -8,12 +8,12 @@ export default function Header(){
             </h1>
             <nav className="nav">
                 <li className="nav-item">
-                    <Link to='/About' className='nav-link active'>
+                    <Link to='/' className='nav-link active'>
                         About Me
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to='/' className='nav-link active custom-link'>
+                    <Link to='/Portfolio' className='nav-link active custom-link'>
                         Portfolio
                     </Link>
                 </li>
